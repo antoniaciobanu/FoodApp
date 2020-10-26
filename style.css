@@ -13,10 +13,17 @@ html {
   font-family: "Nunito";
   font-size: 12px;
 }
+.body1{
+  background-image: url(img/6.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  
+}
 .nav {
   width: 100%;
   height: 65px;
-  position: fixed;
+  position: relative;
   line-height: 65px;
   text-align: center;
 }
@@ -72,14 +79,12 @@ html {
   color: #00E676;
 }
 section {
-  min-height: 100vh;
+  margin-top:200px;
   width: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
-  background-image: url(img/6.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
+ 
 }
 .container {
   width: 100%;
@@ -197,6 +202,13 @@ form ion-icon {
   }
   .container.initial form input {
     padding: 10px;
+    font-size: 2rem;
+  }
+   .nav div.logo a {
+    font-size:2rem;
+  }
+
+  .nav div.main_list ul li a{
     font-size: 2rem;
   }
 }
