@@ -113,3 +113,15 @@
 .aboutme :last-child{
     margin-top:10px;
 }
+
+@media (max-width: 768px){
+  
+  .nav div.logo a {
+    font-size:2rem;
+    
+  }
+
+  .nav div.main_list ul li a{
+    font-size: 2rem;
+  }
+}
